@@ -1,9 +1,0 @@
-node_modules/
-output/
-rate-files/
-config/local.json
-config/dev.json
-config/dev-*.json
-config/prod-*.json
-.env
-.env.local
