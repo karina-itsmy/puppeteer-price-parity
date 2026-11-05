@@ -1,0 +1,20 @@
+{
+  "name": "price-parity",
+  "private": true,
+  "description": "Checks that two funds loaded from the same rate file show the same prices in the agent-view comparator funnel",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "price-parity": "node src/priceParity.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "puppeteer": "^25.14.0"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0",
+    "vitest": "^5.0.0"
+  }
+}

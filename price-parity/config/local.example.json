@@ -1,0 +1,10 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "leadId": "<zoho-lead-id>",
+  "expectedFund": { "code": "cps", "name": "see-u by HBF" },
+  "actualFund": { "code": "itsmy", "name": "ItsMy" },
+  "rateFiles": ["../rate-files/itsmy_FullLoad.xlsx"],
+  "variationFile": "../scenarios/variations.json",
+  "headless": false,
+  "profile": { "age": 40, "rebateTier": "base", "lhcAge": null }
+}

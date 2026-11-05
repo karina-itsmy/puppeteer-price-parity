@@ -1,0 +1,18 @@
+{
+  "searches": [
+    "VIC/single/hospital",
+    "NSW/single/hospital",
+    "VIC/family/hospital",
+    "NSW/family/hospital",
+    "VIC/single/combined",
+    "NSW/family/combined"
+  ],
+  "profiles": [
+    { "age": 30, "rebateTier": "tier1", "lhcAge": null },
+    { "age": 65, "rebateTier": "base", "lhcAge": null },
+    { "age": 65, "rebateTier": "tier3", "lhcAge": null },
+    { "age": 40, "rebateTier": "none", "lhcAge": null },
+    { "age": 40, "rebateTier": "tier2", "lhcAge": null },
+    { "age": 40, "rebateTier": "base", "lhcAge": 35 }
+  ]
+}
